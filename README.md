@@ -9,6 +9,10 @@ const client = new miftcmd({
     status = "sem můžeš status discord bota, ALE nemusíš",
 })
 
+
+tady na tom místě budeš psát příkazy které uvidíš v dalších odstavcích
+
+
 // pokud chceš před-udělaný help příkaz
 client.use.pre_build_help()
 
