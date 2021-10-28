@@ -48,7 +48,7 @@ client.command("embed", {
     // uděláme embed
     const embed = new Discord.MessageEmbed()
     .setTitle("To co se zobrazí nahoře v embedu")
-    .setDescription("řádek 1\nřádek 2\řádek 3...") /*do "" napiš uplně cokoliv*/
+    .setDescription("řádek 1\nřádek 2\nřádek 3...") /*do "" napiš uplně cokoliv*/
     
     // odešleme embed
     message.channel.send(embed)
