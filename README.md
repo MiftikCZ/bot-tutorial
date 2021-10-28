@@ -6,7 +6,7 @@ Tady najdete jak udělat discord bota
 const miftcmd = require("@miftikcz/miftcmd")
 const client = new miftcmd({
     prefix: "?", // sem si dej prefix
-    status = "sem můžeš status discord bota, ALE nemusíš",
+    status: "sem můžeš status discord bota, ALE nemusíš",
 })
 
 
